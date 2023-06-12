@@ -13,7 +13,8 @@ export default async function Home() {
       <div className="flex flex-wrap justify-center gap-6">
         {drops.map((drop) => (
           <DropCard
-            key={drop.slug}
+            key={drop.id}
+            id={drop.id}
             title={drop.title}
             metadata={drop.metadata}
           />

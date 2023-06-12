@@ -1,4 +1,5 @@
 export interface Drop {
+  id: string;
   slug: string;
   title: string;
   metadata: {
