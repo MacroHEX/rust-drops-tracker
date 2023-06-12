@@ -1,34 +1,152 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+<br />
+<div align="center">
+  <a href="https://github.com/MacroHEX/rust-drops-tracker">
+    <img src="https://i.imgur.com/AM90pib.png" alt="Logo" height="120">
+  </a>
+
+  <p align="center">
+    <br />
+    <a href="https://github.com/MacroHEX/rust-drops-tracker"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/MacroHEX/rust-drops-tracker">View Demo</a>
+    ·
+    <a href="https://github.com/MacroHEX/rust-drops-tracker/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/MacroHEX/rust-drops-tracker/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Rust Tracker][rust-screenshot]]()
+
+The Rust Drops Tracker project serves as a practical exercise for practicing the usage of Cosmic.js, a headless CMS (Content Management System), along with Next.js. It provides a platform where users can track and monitor the status of drops from Twitch for the popular game Rust.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+[![Next][Next.js]][Next-url]
+[![Tailwind][Tailwind]][Tailwind-url]
+[![Tremor][Tremor]][Tremor-url]
+[![CosmicJS][CosmicJS]][Cosmic-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple example steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Before starting with the Rust Drops Tracker, ensure that the following requirements are met:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Node.js (version 12 or higher)
+- NPM (Node Package Manager) or Yarn
+- Access to Cosmic.js account (https://www.cosmicjs.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+_To install the Rust Drops Tracker, follow these steps:_
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository from GitHub:
+   ```bash
+   git clone https://github.com/macrohex/rust-drops-tracker.git
+   ```
+2. Navigate to the project directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd rust-drops-tracker
+   ```
+3. Install the project dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the server
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Deploy on Vercel
+<!-- ROADMAP -->
+## Roadmap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Add Localstorage to the state of claimed
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Martin - [@macrohex](https://twitter.com/macrohex)
+
+Project Link: [https://github.com/MacroHEX/rust-drops-tracker](https://github.com/MacroHEX/rust-drops-tracker)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/MacroHEX/rust-drops-tracker/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/MacroHEX/rust-drops-tracker/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/MacroHEX/rust-drops-tracker/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/MacroHEX/rust-drops-tracker/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/MacroHEX/rust-drops-tracker/blob/master/LICENSE.txt
+[rust-screenshot]: https://i.imgur.com/xUTeoPe.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[Tailwind]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
+[Tremor]: https://img.shields.io/badge/Tremor-%233333FF.svg?style=for-the-badge&logoColor=white
+[Tremor-url]: https://www.tremor.so/
+[CosmicJS]: https://img.shields.io/badge/CosmicJS-%230167ff.svg?style=for-the-badge&logo=cosmicJS&logoColor=white
+[Cosmic-url]: https://www.cosmicjs.com/# rust-drops-tracker
