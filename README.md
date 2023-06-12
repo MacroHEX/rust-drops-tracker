@@ -17,7 +17,7 @@
     <a href="https://github.com/MacroHEX/rust-drops-tracker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/MacroHEX/rust-drops-tracker">View Demo</a>
+    <a href="https://rust-drops-tracker.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/MacroHEX/rust-drops-tracker/issues">Report Bug</a>
     ·
@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Rust Tracker][rust-screenshot]]()
+[![Rust Tracker][rust-screenshot]](https://rust-drops-tracker.vercel.app)
 
 The Rust Drops Tracker project serves as a practical exercise for practicing the usage of Cosmic.js, a headless CMS (Content Management System), along with Next.js. It provides a platform where users can track and monitor the status of drops from Twitch for the popular game Rust.
 
@@ -109,6 +109,7 @@ _To install the Rust Drops Tracker, follow these steps:_
 <!-- ROADMAP -->
 ## Roadmap
 
+- [x] Connect to Cosmic.js CMS
 - [ ] Add Localstorage to the state of claimed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
