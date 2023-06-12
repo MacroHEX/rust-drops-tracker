@@ -150,4 +150,4 @@ Project Link: [https://github.com/MacroHEX/rust-drops-tracker](https://github.co
 [Tremor]: https://img.shields.io/badge/Tremor-%233333FF.svg?style=for-the-badge&logoColor=white
 [Tremor-url]: https://www.tremor.so/
 [CosmicJS]: https://img.shields.io/badge/CosmicJS-%230167ff.svg?style=for-the-badge&logo=cosmicJS&logoColor=white
-[Cosmic-url]: https://www.cosmicjs.com/# rust-drops-tracker
+[Cosmic-url]: https://www.cosmicjs.com/
