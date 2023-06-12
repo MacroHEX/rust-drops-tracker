@@ -5,7 +5,7 @@ import { getDrops } from "@/lib/Cosmic";
 
 // :::
 //
-export const Home = async () => {
+export default async function Home() {
   const drops = await getDrops();
 
   return (
@@ -21,6 +21,4 @@ export const Home = async () => {
       </div>
     </main>
   );
-};
-
-export default Home;
+}
